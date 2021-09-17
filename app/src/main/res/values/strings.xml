@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BusinessListing</string>
+    <string name="content_description_media">MTN Group </string>
+    <string name="title">MTN Group Limited</string>
+    <string name="secondary_text">www.mtn.co.za</string>
+    <string name="supporting_text">MTN Group Limited ,formerly M-Cell is a South African multinational mobile telecommunication....</string>
+    <string name="action_1">Find More</string>
+    <string name="secondary_text2">www.fnb.co.za</string>
+    <string name="title2">First National Bank (South Africa)</string>
+    <string name="supporting_text2">FNB is one of the South Africa\'s  \"big five\" banks.It is a division of FirstRand  Limited,a large financial services which trades on the JSE.</string>
+    <string name="title3">Takealot</string>
+    <string name="secondary_text3">takealot.co.za</string>
+    <string name="supporting_text3">Takealot is a South Africa ecommerce company based in Capetown, South Africa.</string>
+    <string name="title4">Kentucky Fried Chicken</string>
+    <string name="secondary_text4">www.kfc.com</string>
+    <string name="supporting_text4">KFC is an american fast food restaurant chain heardquartered  in Louisville.</string>
+</resources>

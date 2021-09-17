@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".ProfileAccount">
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="100dp"
+
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ashlone Chibvuri"
+        app:layout_constraintTop_toBottomOf="@+id/imageProfile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/profileemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajcdigital@gmail.com"
+        app:layout_constraintTop_toBottomOf="@+id/profilename"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/shareProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/profileemail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/darkblue"
+        android:text="Share Profile"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/takeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/shareProfile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/darkblue"
+        android:text="Take Image"
+        android:textColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
